@@ -1,0 +1,23 @@
+active: true
+bio:
+  Steve has dabbled in Linux development, mail servers, client side and wireless hacking to name but a few.
+
+
+  Steve is currently a post-graduate researcher on AI and data mining at James Cook University.
+github: stevenvandervalk
+image:
+  url: /images/steve-vandervalk.jpg
+  title: Steve Vandervalk
+  alt: Steve Vandervalk
+layout: profile
+
+name: Steve Vandervalk
+role: Co-Founder
+short:
+  <a href="/team/steve-vandervalk">Steve</a> co-founded NQIS, a
+  <a href="/">information security company</a> in 2013.
+  He has experience in security, networking and best practices for modern operating systems both user and embedded.
+  He's currently a post-graduate researcher on AI and semantics at James Cook University.
+twitter: stevevandervalk
+type: employee
+website: stevevandervalk.com

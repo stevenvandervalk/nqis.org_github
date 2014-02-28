@@ -1,0 +1,24 @@
+---
+layout: page
+title: Information Security Blog
+---
+<div id="post-index" class="span15">
+  <div class="title">The NQIS Blog</div>
+  <h1 class="byline">A blog about information security</h1>
+
+  {% if paginator.posts %}
+    <ul class="span12">
+      {% for post in paginator.posts %}
+        <li>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          {% if post.excerpt %}
+            {{ post.excerpt | read_more: post.url | simple_format }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    {% include pagination.html %}
+
+  {% endif %}
+</div>

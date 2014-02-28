@@ -1,0 +1,33 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <email>contact@nqis.org</email>
+    <name>The NQIS Team</name>
+    <uri>{{ site.domain }}/team</uri>
+  </author>
+  <id>{{ site.domain }}</id>
+  <link href="{{ site.domain }}/feed" rel="self" />
+  <link href="{{ site.domain }}" />
+  <rights>NQIS.org is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</rights>
+  <subtitle>An Information Security Blog</subtitle>
+  <title>The NQIS Blog</title>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+
+  {% for post in site.posts limit: 20 %}
+    <entry>
+      <author>
+        <name>{{ post.author }}</name>
+        <uri>{{ site.domain }}/team/{{ post.author | team_path }}</uri>
+      </author>
+      <content type="html">{{ post.content | xml_escape }}</content>
+      <id>{{ site.domain }}{{ post.id }}</id>
+      <link href="{{ site.domain }}{{ post.url }}"/>
+      <summary>{{ post.excerpt }}</summary>
+      <title>{{ post.title }}</title>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+    </entry>
+  {% endfor %}
+</feed>

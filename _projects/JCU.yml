@@ -1,0 +1,24 @@
+description:
+  
+endorsements:
+-
+  body:
+    NQIS indentified common and critical vulnerabilities in JCUs wireless network `Eduroam`.  NQIS also patched mail servers that were depreceated but still online and capable of providing spoofed emails to JCU staff.
+    <ol>
+      <li>Great communication at all stages of the project</li>
+      <li>Strong technical knowledge but the ability to communicate to all levels of the organization</li>
+      <li>Fast - our work was delivered on time</li>
+    </ul>
+  from: ITR
+  role: Client
+image:
+  url: /images/jcu_logo_resized.png
+  title: JCU
+  alt: JCU
+layout:    project
+project_description:
+  NQIS was able to penetration test and document the ability to attack staff email accounts both remotely and on site.  Additionally NQIS identified vulnerabilites available to on site attackers allowing Man In The Middle attacks and encryption downgrading.  Finally Eduroam authentication protocols were identified and successfully breached.
+published: true
+short:     A leading tropical University that provides on campus access to staff and student services via a wireless network.
+title:     James Cook University
+website:   http://www.jcu.edu.au

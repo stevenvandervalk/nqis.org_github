@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <email>contact@nqis.org</email>
+    <name>The NQIS Team</name>
+    <uri>http://nqis.org/team</uri>
+  </author>
+  <id>http://nqis.org</id>
+  <link href="http://nqis.org/feed" rel="self" />
+  <link href="http://nqis.org" />
+  <rights>NQIS.org is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</rights>
+  <subtitle>An Information Security Blog</subtitle>
+  <title>The NQIS Blog</title>
+  <updated>2014-02-28T09:59:23+10:00</updated>
+
+  
+    <entry>
+      <author>
+        <name>Steve Vandervalk</name>
+        <uri>http://nqis.org/team/steve-vandervalk</uri>
+      </author>
+      <content type="html">&lt;p&gt;Here&#39;s to open source and open security knowledge.&lt;/p&gt;
+</content>
+      <id>http://nqis.org/blog/2014/02/02/in-the-beginning</id>
+      <link href="http://nqis.org/blog/2014/02/02/in-the-beginning"/>
+      <summary>Whew... what a week! Finally finished a web site</summary>
+      <title>In the beginning...</title>
+      <updated>2014-02-02T00:00:00+10:00</updated>
+    </entry>
+  
+</feed>

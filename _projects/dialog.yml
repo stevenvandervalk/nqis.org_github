@@ -1,0 +1,24 @@
+description:
+  Australia's leading private information technology company.  Provides services to all aspects of business and employess 950 consultanting staff nationwide.  Strategic consulting, full application lifecycle and long term operational support.
+endorsements:
+-
+  body:
+    Worked in collaboration to establish checklists for SME system configurations.
+    <ol>
+      <li>Great communication at all stages of the project</li>
+      <li>Strong technical knowledge but the ability to communicate to all levels of the organization</li>
+      <li>Fast - our work was delivered on time</li>
+    </ul>
+  from: Richard Broad
+  role: Project Manager
+image:
+  url: /images/dialog_logo_resized.png
+  title: Dialog Information Technology
+  alt: Dialog
+layout:    project
+project_description:
+  NQIS prototyped and refined a set of documents to configure and secure systems used by SME's.  Collaboration to establish mutual contracting relationships to share expertise and add business value.
+published: true
+short:     Australia's leading private information technology company with over 950 consultants employed nationwide providing operational support, application development and strategic consulting.
+title:     Dialog Information Technology
+website:   http://www.dialog.com.au

@@ -1,0 +1,20 @@
+description:
+  Premier ghost fighting company in town.
+endorsements:
+-
+  body:
+    NQIS did great great things for us.
+  from: Bill Murray
+  role: Founder
+image:
+  url: /images/ghostbusters.png
+  title: Ghostbusters
+  alt: Ghostbusters
+layout:    project
+project_description:
+  NQIS helped re-architect their security backend infrastructure,
+  creating a flexible and scalable solution that fit their needs with ghosts.
+published: true
+short:     The premier ghost busting company in town.
+title:     Ghostbusters
+website:   http://ghostbusters.com/
